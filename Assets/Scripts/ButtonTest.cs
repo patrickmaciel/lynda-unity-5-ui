@@ -6,4 +6,14 @@ public class ButtonTest : MonoBehaviour {
     {
         Debug.Log("On Click");
     }
+
+    public void OnOver()
+    {
+        Debug.Log("On Over");
+    }
+
+    public void OnExit()
+    {
+        Debug.Log("On Exit");
+    }
 }
